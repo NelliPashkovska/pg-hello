@@ -21,12 +21,12 @@ function deviceInfo() {
 	
 }
 
-finction deviceInfoAgain() {
+function deviceInfoAgain() {
 
-	info = 'Information about myself: ' + '\n' +
-			'My first name : Nelli ' +
-			'My second name : Pashkovska' +
-			'I am 20 yo';
-			
-	navigator.notificationalert(info);
+	infoPersonal = 'Information about myself: ' + '\n' +
+			'My first name : Nelli ' + '\n' +
+			'My second name : Pashkovska' + '\n' +
+			'I am 20 yo' + '\n';
+
+	navigator.notification.alert(infoPersonal);
 }
